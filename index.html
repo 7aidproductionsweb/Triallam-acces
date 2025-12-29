@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIALLAM | Classify all. Organize more.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://i.postimg.cc/rw19QdSm/Logo_Triallam_crop_transparent.png" alt="TRIALLAM logo" class="logo-mark">
+                <span>TRIALLAM</span>
+            </div>
+            <a href="#beta" class="btn-small">Devenir Testeur</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Transformez votre chaos numérique en une bibliothèque parfaitement ordonnée.</h1>
+            <p class="subtitle"> <strong>TRIALLAM</strong> c'est le Trieur Intelligent et Automatique <strong>"100% Made in France"</strong> qui respecte votre vie privée. Conçu pour classer et organiser vos nombreuses photos, vos documents personnels ou administratifs.</p>
+            <div class="cta-group">
+                <a href="#beta" class="btn-primary">Rejoindre la bêta privée</a>
+                <p class="small-info">Version 0.1 (MVP) disponible sur invitation</p>
+            </div>
+        </section>
+
+        <section class="hero-image">
+            <div class="mockup-container">
+                <img src="https://i.postimg.cc/rFGdqLyR/Screenshot-triallam.jpg" alt="TRIALLAM app screenshot" id="main-image">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="icon">🔒</div>
+                <h3>Local-First</h3>
+                <p>Vos fichiers restent sur votre machine. L'IA analyse, mais ne stocke rien sur le cloud. Confidentialité 100% garantie.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🧠</div>
+                <h3>Photos & Documents</h3>
+                <p>Tri intelligent et assisté par un modèle IA français & Reconnaissance de texte pour vos PDF et autres documents en un seul flux.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">✨</div>
+                <h3>Simplicité Radicale</h3>
+                <p>Pas d'usine à gaz. Un bouton, un dossier, un résultat. Conçu pour ceux qui veulent gagner du temps, pas en perdre.</p>
+            </div>
+        </section>
+
+        <section class="story">
+            <h2>Construire TRIALLAM : Une aventure humaine avant tout...</h2>
+            <div class="story-content">
+                <p>Né d'un besoin concret pour aider des amis à gérer des centaines de photos WhatsApp, TRIALLAM est un projet indépendant développé par <strong>7aiproductions</strong>. Nous croyons en un logiciel simple, accessible et sans abonnement à vie.</p>
+                <p>Nous cherchons aujourd'hui <strong>2500 €</strong> de financement pour stabiliser notre infrastructure IA et offrir une version stable aux premiers utilisateurs/tests grands publics.</p>
+            </div>
+        </section>
+
+        <section id="beta" class="beta-form">
+            <h2>Rejoindre les testeurs de confiance</h2>
+            <p>L'accès est limité pour garantir un accompagnement de qualité à chaque utilisateur.</p>
+            <form id="contact-form">
+                <input type="email" placeholder="Votre adresse email" required>
+                <select required>
+                    <option value="" disabled selected>Pourquoi voulez-vous tester TRIALLAM ?</option>
+                    <option value="particulier">Nettoyer mes photos/documents (Cadre privé)</option>
+                    <option value="professionnel">Organiser mes documents pro (Cadre professionnel)</option>
+                    <option value="associatif">Classez les documents de mon association (Cadre associatif)</option>
+                    <option value="investisseur">Soutenir ou Investir dans le projet</option>
+                </select>
+                <button type="submit" class="btn-primary">Demander mon accès</button>
+            </form>
+            <div id="form-success" class="hidden">Merci ! Nous vous contacterons très prochainement.</div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>TRIALLAM par 7aiproductions</p>
+            <p>Contact : 7aiproductions@gmail.com</p>
+            <p class="copyright">Idée originale : B. Chloé | Développement : Krystian | 2026</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
